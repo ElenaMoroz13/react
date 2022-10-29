@@ -1,9 +1,9 @@
 import React from "react";
-import './header.css'
+import classes from './header.module.css'
 
 const Header = () =>{
     return(
-        <header className="header">
+        <header className={classes.header}>
             <img src='https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png'/>
         </header>
     )
