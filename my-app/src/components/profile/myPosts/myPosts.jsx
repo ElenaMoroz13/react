@@ -6,7 +6,7 @@ import Post from './post/post';
 const MyPosts = (props) => {
 
   let postsElements = 
-    props.state.profilePage.posts.map(p => <Post className={classes.post} message={p.message} likes={p.likes}/>)
+    props.posts.map(p => <Post className={classes.post} message={p.message} likes={p.likes}/>)
 return(
       <div className={classes.postsContent}>
         <div className={classes.postsBlock}>
