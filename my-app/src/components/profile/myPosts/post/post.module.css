@@ -1,9 +1,16 @@
-
-  .item{
-    color: forestgreen;
-  }
-  .item img{
+.item img{
     width: 80px;
     height: 80px;
-    border-radius: 30px;
+    border-radius: 50px;
   }
+.likes{
+  font-size: 13px;
+}  
+.item{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.postInfo{
+  padding-top: 15px;
+}

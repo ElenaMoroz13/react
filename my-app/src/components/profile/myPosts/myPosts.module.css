@@ -1,0 +1,38 @@
+
+.myPosts{
+    font-weight: bold;
+    color: brown;
+    font-size: 40px;
+    padding: 10px;
+}
+.postsBlock{
+    padding: 10px;
+}
+.addPost{
+    border: none; 
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.471);
+    width: 150px;
+    height: 65px;
+    color: brown;
+    font-size: 15px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.addPost:hover{
+    background-color: brown;
+    color: white;
+}
+textarea{
+    margin-left: 10px;
+}
+.posts{
+    margin-top: 10px;
+}
+.post{
+    margin: 20px;
+}
+.postsContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,7 +1,7 @@
 .header{
     grid-area: h;
-    background-color: #000;
+    background-color: rgb(185, 101, 101);
 }
-.header img{
-    width: 20px;
+.logo{
+    padding: 20px;
 }

@@ -1,10 +1,26 @@
 .nav{
     grid-area: n;
     background-color: brown;
+    padding: 20px;
   }
-  .item{
+  .item a{
     color: white;
+    text-decoration: none;
+    font-size: 20px;
   }
-  .item.active{
-color: gold;
+  .item a:focus{
+    font-weight: bold;
+    color: azure;
+    font-size: 25px;
+  }
+  .item:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    padding-left: 20px;
+    font-size: larger;
   }

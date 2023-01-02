@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+
 .app-wrapper{
   width: 1200px;
   margin: 0 auto;
@@ -13,5 +20,5 @@
 
 .app-wrapper-content{
   grid-area: c;
-  background-color: cornflowerblue;
+  background-color: rgba(237, 210, 100, 0.322);
 }
