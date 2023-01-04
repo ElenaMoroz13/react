@@ -3,7 +3,7 @@ import React from 'react'
 
 const FriendImg = (props) => {
 return(
-    <img src="https://www.pngkey.com/png/full/72-729716_user-avatar-png-graphic-free-download-icon.png" alt=""/>
+    <img className={classes.avatar} src="https://www.pngkey.com/png/full/72-729716_user-avatar-png-graphic-free-download-icon.png" alt=""/>
 )
 }
 

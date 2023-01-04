@@ -14,7 +14,7 @@
     {id: 3,name: 'Nika'},
     {id: 4,name: 'Stepa'},
     {id: 5,name: 'Ivan'},{id: 6,name: 'Andrey'}]},
-    friends:[{name: 'Alex'},
+      friends:[{name: 'Alex'},
       {name: 'Mary'},
       {name: 'Julia'}]
   }

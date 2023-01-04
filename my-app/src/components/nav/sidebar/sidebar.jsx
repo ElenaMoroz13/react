@@ -4,7 +4,9 @@ import FriendItem from './friendItem/friendItem'
 
 
 const Sidebar = (props) => {
-    let friendsElements = props.friends?.map(f => <FriendItem className={classes.friendItem} name={f.friends}/>)
+
+    let friendsElements = props.friends.map(f => <FriendItem name={f.name}/>)
+
     return(
         <div className={classes.friends}>
             <h2 className={classes.friendsTitle}>Friends</h2>

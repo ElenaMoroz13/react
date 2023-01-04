@@ -13,7 +13,7 @@ return(
         <div className={classes.myPosts}>My Posts</div>
         <textarea></textarea>
         <div>
-        <button className={classes.addPost}>Add post</button>
+        <button className={classes.addPost} onClick={alert('do u want to add post?')}>Add post</button>
         </div>
         </div>
         <div className={classes.posts}>
